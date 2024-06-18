@@ -105,27 +105,27 @@ func FilterSensitiveItems(items []DataType) []DataType {
 var DefaultFirefoxTypes = []DataType{
 	FirefoxKey4,
 	FirefoxPassword,
-	FirefoxCookie,
+	// FirefoxCookie,
 	FirefoxBookmark,
 	FirefoxHistory,
 	FirefoxDownload,
 	FirefoxCreditCard,
-	FirefoxLocalStorage,
-	FirefoxSessionStorage,
+	// FirefoxLocalStorage,
+	// FirefoxSessionStorage,
 	FirefoxExtension,
 }
 
 // DefaultYandexTypes returns the default items for the yandex browser
 var DefaultYandexTypes = []DataType{
 	ChromiumKey,
-	ChromiumCookie,
+	// ChromiumCookie,
 	ChromiumBookmark,
 	ChromiumHistory,
 	ChromiumDownload,
 	ChromiumExtension,
 	YandexPassword,
-	ChromiumLocalStorage,
-	ChromiumSessionStorage,
+	// ChromiumLocalStorage,
+	// ChromiumSessionStorage,
 	YandexCreditCard,
 }
 
@@ -133,13 +133,13 @@ var DefaultYandexTypes = []DataType{
 var DefaultChromiumTypes = []DataType{
 	ChromiumKey,
 	ChromiumPassword,
-	ChromiumCookie,
+	// ChromiumCookie,
 	ChromiumBookmark,
 	ChromiumHistory,
 	ChromiumDownload,
 	ChromiumCreditCard,
-	ChromiumLocalStorage,
-	ChromiumSessionStorage,
+	// ChromiumLocalStorage,
+	// ChromiumSessionStorage,
 	ChromiumExtension,
 }
 

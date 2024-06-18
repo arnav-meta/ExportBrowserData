@@ -13,28 +13,10 @@ var (
 		profilePath string
 		dataTypes   []types.DataType
 	}{
-		"chrome": {
-			name:        chromeName,
-			storage:     chromeStorageName,
-			profilePath: chromeProfilePath,
-			dataTypes:   types.DefaultChromiumTypes,
-		},
-		"edge": {
-			name:        edgeName,
-			storage:     edgeStorageName,
-			profilePath: edgeProfilePath,
-			dataTypes:   types.DefaultChromiumTypes,
-		},
 		"chromium": {
 			name:        chromiumName,
 			storage:     chromiumStorageName,
 			profilePath: chromiumProfilePath,
-			dataTypes:   types.DefaultChromiumTypes,
-		},
-		"chrome-beta": {
-			name:        chromeBetaName,
-			storage:     chromeBetaStorageName,
-			profilePath: chromeBetaProfilePath,
 			dataTypes:   types.DefaultChromiumTypes,
 		},
 		"opera": {

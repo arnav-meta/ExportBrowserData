@@ -27,9 +27,9 @@ func main() {
 
 func Execute() {
 	app := &cli.App{
-		Name:      "hack-browser-data",
+		Name:      "export-browser",
 		Usage:     "Export passwords|bookmarks|cookies|history|credit cards|download history|localStorage|extensions from browser",
-		UsageText: "[hack-browser-data -b chrome -f json -dir results --zip]\nExport all browsing data (passwords/cookies/history/bookmarks) from browser\nGithub Link: https://github.com/moonD4rk/HackBrowserData",
+		UsageText: "[export-browser -b chrome -f json -dir results --zip]\nExport all browsing data (passwords/cookies/history/bookmarks) from browser",
 		Version:   "0.4.5",
 		Flags: []cli.Flag{
 			&cli.BoolFlag{Name: "verbose", Aliases: []string{"vv"}, Destination: &verbose, Value: false, Usage: "verbose"},
